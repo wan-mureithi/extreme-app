@@ -18,11 +18,11 @@ export default function Profile() {
     Notes: notes,
     Address: '4600 N Virginia Rd.'
   };
-
+  const colreen = ['one','two'];
   return (
     <React.Fragment>
       <h2 className={'content-block'}>Profile</h2>
-
+ { colreen.map(it => <p>{it}</p> ) }
       <div className={'content-block dx-card responsive-paddings'}>
         <div className={'form-avatar'}>
           <img
